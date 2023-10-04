@@ -12,9 +12,11 @@ header h1 {
     padding: 20px;
 }
 
-div.mono, div.tria, div.comp {
+div.mono, div.tria, div.comp, div.quiz {
     border: 1px solid black;
+    display:block
 }
+
 /*Style for Monochromatic Color Scheme*/
     div.mono p {
         color: #1E44B5;
