@@ -1,0 +1,75 @@
+body {
+      font-family: Arial, sans-serif;
+      background-color: #FFFFFF;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+}
+
+header h1 {
+    background-color: #4169E1;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+div.mono, div.tria, div.comp {
+    border: 1px solid black;
+}
+/*Style for Monochromatic Color Scheme*/
+    div.mono p {
+        color: #1E44B5;
+        font-size: 18px;
+        padding: 20px;
+    }
+
+    div.mono button {
+        background-color: #6A8AFF;
+        color: #FFFFFF;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    div.mono button:hover {
+        background-color: #1E44B5;
+    }
+
+/*Style for Triadic Color Scheme*/
+    div.tria p {
+        color: #B07E4C;
+        font-size: 18px;
+        padding: 20px;
+    }
+
+    div.tria button {
+        background-color: #B07E4C;
+        color: #FFFFFF;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+        div.tria button:hover {
+            background-color: #2F7D3A;
+        }
+    /*Style for Complementary Color Scheme*/
+    div.comp p {
+        color: #FC799C;
+        font-size: 18px;
+        padding: 20px;
+    }
+
+    div.comp button {
+        background-color: #FC799C;
+        color: #FFFFFF;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+        div.comp button:hover {
+            background-color: #B03153;
+        }
